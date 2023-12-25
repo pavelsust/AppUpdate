@@ -4,6 +4,9 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'com.pavel.update'
+version = '1.0.2'
+
 android {
     namespace 'com.pavel.update'
     compileSdk 33
@@ -45,7 +48,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.pavel.update'
                 artifactId = 'update'
-                version = '1.0.0'
+                version = '1.0.2'
             }
         }
     }
